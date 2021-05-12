@@ -1,0 +1,12 @@
+
+spring:
+  mirai:
+    account: ${MIRAI_QQ}
+    password: ${MIRAI_PASSWORD}
+    device-info: device.json
+  ipt:
+    group: ${BROADCAST_CHANNEL}
+  esp8266:
+    port: COM8
+server:
+  port: 8888
